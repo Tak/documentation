@@ -89,12 +89,13 @@ Returns an [Account](#account).
 
 Returns the authenticated user's [Account](#account) with an extra attribute `source` which contains these keys:
 
-| Attribute   | Description                                                    |
-| ----------- | -------------------------------------------------------------- |
-| `privacy`   | Selected preference: Default privacy of new toots              |
-| `sensitive` | Selected preference: Mark media as sensitive by default?       |
-| `note`      | Plain-text version of the account's `note`                     |
-| `fields`    | Array of profile metadata, each element has 'name' and 'value' |
+| Attribute     | Description                                                    |
+| -----------   | -------------------------------------------------------------- |
+| `privacy`     | Selected preference: Default privacy of new toots              |
+| `sensitive`   | Selected preference: Mark media as sensitive by default?       |
+| `filter-bots` | Selected preference: Filter statuses from registered bots?     |
+| `note`        | Plain-text version of the account's `note`                     |
+| `fields`      | Array of profile metadata, each element has 'name' and 'value' |
 
 #### Updating the current user:
 
